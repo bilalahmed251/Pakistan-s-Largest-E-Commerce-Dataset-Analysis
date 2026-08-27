@@ -1,27 +1,15 @@
-# Pakistan's Largest E-Commerce Dataset Analysis 🇵🇰
+# Pakistan's Largest E-Commerce Dataset Analysis
 
-## 📌 Project Overview
-This project analyzes **Pakistan's Largest E-Commerce Dataset** containing over 500,000 order records from 2016 to 2018. The goal was to clean the data, discover sales trends, and understand customer behavior using Python.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Data Science](https://img.shields.io/badge/Domain-Data%20Science-yellow)
 
-## 📊 Key Findings
-Based on the analysis of 408,771 orders:
-- **Total Revenue:** ~4.98 Billion PKR.
-- **Top Category:** Mobiles & Tablets driven by high value.
-- **Top Payment Method:** Cash on Delivery (COD) is the dominant payment method.
-- **Critical Insight:** The cancellation/refund rate is alarmingly high at **45.99%**, indicating operational challenges.
-- **Seasonality:** significant sales spikes observed in November (likely Black Friday sales).
+A comprehensive time-series analysis focusing on transaction behaviors, sales trends, and operational statuses of Pakistan's e-commerce landscape.
 
-## 🛠️ Technologies Used
+## Analysis Features
+- **Time-Series Processing:** Extracts and indexes time-based features (Year, Month, Day) using Pandas DateTime accessors.
+- **Sales Trend Forecasting:** Groups and analyzes completed transactions to generate a macroscopic view of monthly sales trends.
+- **Data Visualization:** Outputs a structured line-plot (monthly_sales_trend.png) highlighting revenue peaks and valleys over the dataset's lifespan.
+
+## Tech Stack
 - **Language:** Python
-- **Libraries:** Pandas (Data Cleaning), Matplotlib & Seaborn (Data Visualization)
-
-## 📂 Visualizations
-*(Note: You can view the full detailed report in the [Analysis_report.pdf](Analysis_report.pdf) file included in this repo)*
-
-## 🚀 How to Run
-1. Clone the repository.
-2. Install dependencies: `pip install pandas matplotlib seaborn`
-3. Run the script: `python analysis_script.py`
-
----
-*Author: Bilal Ahmed*
+- **Libraries:** Pandas, Seaborn, Matplotlib, NumPy
